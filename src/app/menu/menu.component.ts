@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CommandeComponent } from '../commande/commande.component';
 
 @Component({
   selector: 'app-menu',

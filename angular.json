@@ -94,6 +94,14 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/burgershop",
+            "netlifyToken": "d207085d-d2c4-45f9-9e8c-3f00f35d84e4",
+            "siteId": ""
+          }
         }
       }
     }
