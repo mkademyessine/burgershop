@@ -15,7 +15,8 @@ const routes: Routes = [
   {path:'salade',component:SaladeComponent},
   {path:'dessert',component:DessertComponent},
   {path:'boissons',component:BoissonsComponent},
-  {path:'commande',component:CommandeComponent}
+  {path:'commande',component:CommandeComponent},
+  {path:'',redirectTo: '/menu',pathMatch:'full'}
 ];
 
 @NgModule({
