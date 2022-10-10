@@ -42,3 +42,12 @@
     color: white;
 }
 
+@media screen and (max-width:600px) {
+    .header {
+        padding-left: 10px;
+    }
+    .navbar {
+        width: 450px;
+    }
+    
+}
