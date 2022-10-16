@@ -50,3 +50,6 @@
     color: #fff;
     background-color: #c13c0d;
 }
+p {
+    word-wrap: break-word;
+}
